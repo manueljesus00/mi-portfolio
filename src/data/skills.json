@@ -1,0 +1,5 @@
+{
+  "Frontend": ["React", "Redux", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
+  "Backend": ["Node.js", "Express", "REST API", "GraphQL"],
+  "DevOps": ["GitHub Actions", "Docker", "Kubernetes", "AWS", "CI/CD"]
+}

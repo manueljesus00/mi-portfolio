@@ -1,0 +1,21 @@
+[
+  {
+    "empresa": "Avanade Spain",
+    "puesto": "Desarrollador Full Stack",
+    "periodo": "Oct 2023 - Actualidad",
+    "descripcion": "Mantenimiento y desarrollo de aplicaciones web con tecnologías como Angular, Node.js y Azure."
+  },
+  {
+    "empresa": "Universidad Pablo de Olavide",
+    "puesto": "Becario de asociaciones de estudiantes",
+    "periodo": "Mar 2023 - Mar 2024",
+    "descripcion": "Colaboración en la gestión de asociaciones estudiantiles, organización de eventos y apoyo administrativo."
+  },
+  {
+    "empresa": "QuantiKa 14",
+    "puesto": "Becario",
+    "periodo": "Mar 2018 - May 2018",
+    "descripcion": "Desarrollo de herramientas OSINT con Python y auditoría de seguridad informática."
+  }
+
+]

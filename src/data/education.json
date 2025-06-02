@@ -1,0 +1,76 @@
+[
+  {
+    "institucion": "Universidad Pablo de Olavide",
+    "grado": "Máster en Ingeniería Informática",
+    "periodo": "Nov 2024 - Actualidad",
+    "calificaciones": [
+      {
+        "asignatura": "Gestión TI",
+        "calificacion": "8.0 (NT)"
+      },
+      {
+        "asignatura": "Dirección TI",
+        "calificacion": "7.4 (SB)"
+      }
+    ]
+  },
+    {
+        "institucion": "Universidad Pablo de Olavide",
+        "grado": "Grado en Ingeniería Informática en Sistemas de Información",
+        "periodo": "Sep 2020 - Feb 2025",
+        "trabajo": "Sistema de Información para la Gestión de Eventos Deportivos Colaborativos",
+        "calificaciones": [
+            {
+                "asignatura": "Auditoría de Sistemas de Información",
+                "calificacion": "8.2 (NT)"
+            },
+            {
+                "asignatura": "Inteligencia de Negocio",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Calidad",
+                "calificacion": "8.7 (NT)"
+            },
+            {
+                "asignatura": "Planificación de Proyectos",
+                "calificacion": "7.3 (NT)"
+            },
+            {
+                "asignatura": "Programación Avanzada",
+                "calificacion": "7.2 (NT)"
+            },
+            {
+                "asignatura": "Ingeniería de Proyectos",
+                "calificacion": "8.5 (NT)"
+            },
+            {
+                "asignatura": "Gestión de Procesos de Negocio",
+                "calificacion": "7.9 (NT)"
+            },
+            {
+                "asignatura": "Fundamentos de Sistemas de Información",
+                "calificacion": "7.3 (NT)"
+            },
+            {
+                "asignatura": "Organización y Gestión de Empresas",
+                "calificacion": "8.1 (NT)"
+            }
+        ]
+    },
+    {
+        "institucion": "IES Ciudad Jardín",
+        "grado": "Técnico Superior en Administración de Sistemas Informáticos en Red",
+        "periodo": "Sep 2018 - Jun 2020"
+    },
+    {
+        "institucion": "IES Cristóbal de Monroy",
+        "grado": "Técnico en Sistemas Microinformáticos y Redes",
+        "periodo": "Sep 2016 - Jun 2018"
+    },
+    {
+        "institucion": "IES Cristóbal de Monroy e IES Albero",
+        "grado": "Educación Secundaria Obligatoria (ESO)",
+        "periodo": "Sep 2012 - Jun 2016"
+    }
+]	
