@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
       <img
-        src="https://media.licdn.com/dms/image/v2/D4D03AQHNuCz-DTT3bA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705671488006?e=2147483647&v=beta&t=VMh6OyAYkerdWJfMcxgLxSIW2sEabeohpi9xX7SGUo4"
+        src="src/assets/foto.jpg"
         alt="Foto de Manuel Jesús"
         className="w-32 h-32 rounded-full mb-4 object-cover"
       />
