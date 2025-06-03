@@ -1,0 +1,48 @@
+[
+    {
+        "nombre": "Gestión de Eventos Deportivos Colaborativos",
+        "descripcion": "Trabajo de Fin de Grado del Grado en Ingeniería Informática en Sistemas de Información que consiste en un sistema de información para la gestión de eventos deportivos colaborativos.",
+        "tecnologias": [
+            "TypeScript",
+            "ASP.NET",
+            "JWT",
+            "MySQL",
+            "Github Actions",
+            "RESTful API"
+        ]
+    },
+    {
+        "nombre": "Elaboración de un SOC doméstico",
+        "descripcion": "Trabajo de fin de estudios de ASIR que consiste en un homelab montado con VirtualBox para aprender sobre seguridad informática y administración de sistemas.",
+        "tecnologias": [
+            "VirtualBox",
+            "Kali Linux",
+            "Windows Server",
+            "Ubuntu Server",
+            "Docker",
+            "Metasploitable"
+        ],
+        "link": "https://github.com/manueljesus00/homelab"
+    },
+    {
+        "nombre": "Portal web Cambiemos CEUPO",
+        "descripcion": "Portal web para la candidatura Cambiemos CEUPO, desarrollado para las elecciones de asociaciones estudiantiles de la Universidad Pablo de Olavide.",
+        "tecnologias": [
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "link": "https://github.com/manueljesus00/cambiemosceupo"
+    },
+    {
+        "nombre": "Web Scrapper",
+        "descripcion": "Scrapper web para extraer información de páginas web, desarrollado en Python.",
+        "tecnologias": [
+            "Python",
+            "BeautifulSoup",
+            "Scrapy"
+        ],
+        "link": "https://github.com/manueljesus00/web_scrapper"
+    }
+]

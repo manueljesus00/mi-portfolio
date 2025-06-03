@@ -2,12 +2,18 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6">
+    <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+      <img
+        src="https://media.licdn.com/dms/image/v2/D4D03AQHNuCz-DTT3bA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705671488006?e=2147483647&v=beta&t=VMh6OyAYkerdWJfMcxgLxSIW2sEabeohpi9xX7SGUo4"
+        alt="Foto de Manuel Jesús"
+        className="w-32 h-32 rounded-full mb-4 object-cover"
+      />
       <h2 className="text-2xl font-semibold mb-4">Sobre mí</h2>
+      <p className="text-lg font-medium mb-2">Manuel Jesús Flores Montaño</p>
+      <p className="text-sm text-gray-500 mb-4">Nº de colegiado: 20231117-A</p>
       <p className="mb-4">
-        Soy Manuel Jesús, desarrollador full stack con experiencia en React,
-        Node.js y CI/CD. Me apasiona construir aplicaciones web eficientes
-        y escalables.
+        ¡Hola! Soy un apasionado del desarrollo web y la programación, con un enfoque especial en crear aplicaciones intuitivas y eficientes. Me encanta aprender nuevas tecnologías y enfrentarme a retos que me permitan crecer profesionalmente.
+        <br />
       </p>
       <a
         href="/assets/tu-cv.pdf"

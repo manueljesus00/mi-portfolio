@@ -61,12 +61,97 @@
     {
         "institucion": "IES Ciudad Jardín",
         "grado": "Técnico Superior en Administración de Sistemas Informáticos en Red",
-        "periodo": "Sep 2018 - Jun 2020"
+        "trabajo": "Elaboración de un SOC doméstico",
+        "periodo": "Sep 2018 - Jun 2020",
+        "calificaciones": [
+            {
+                "asignatura": "Fundamentos de Hardware",
+                "calificacion": "8.0 (NT)"
+            },
+            {
+                "asignatura": "Gestión de Bases de Datos",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Implantación de Sistemas Operativos",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Lenguaje de Marcas y Sistemas de Gestión de Información",
+                "calificacion": "10.0 (MH)"
+            },
+            {
+                "asignatura": "Planificación y Administración de Redes",
+                "calificacion": "8.0 (NT)"
+            },
+            {
+                "asignatura": "Administración de Sistemas Gestores de Bases de Datos",
+                "calificacion": "7.0 (NT)"
+            },
+            {
+                "asignatura": "Administración de Sistemas Operativos",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Implantación de Aplicaciones Web",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Seguridad y Alta Disponibilidad",
+                "calificacion": "7.0 (NT)"
+            },
+            {
+                "asignatura": "Servicios de Red e Internet",
+                "calificacion": "8.0 (NT)"
+            },
+            {
+                "asignatura": "Proyecto Fin de Estudios",
+                "calificacion": "10.0 (MH)"
+            }
+        ]
     },
     {
         "institucion": "IES Cristóbal de Monroy",
         "grado": "Técnico en Sistemas Microinformáticos y Redes",
-        "periodo": "Sep 2016 - Jun 2018"
+        "periodo": "Sep 2016 - Jun 2018",
+        "calificaciones": [
+            {
+                "asignatura": "Montaje y Mantenimiento de Equipos",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Sistemas Operativos Monopuesto",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Aplicaciones Web",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Sistemas Operativos en Red",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Aplicaciones Ofimáticas",
+                "calificacion": "8.0 (NT)"
+            },
+            {
+                "asignatura": "Seguridad Informática",
+                "calificacion": "8.0 (NT)"
+            },
+            {
+                "asignatura": "Servicios en Red",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Empresa e Iniciativa Emprendedora",
+                "calificacion": "9.0 (SB)"
+            },
+            {
+                "asignatura": "Formación y Orientación Laboral",
+                "calificacion": "8.0 (NT)"
+            }
+        ]
     },
     {
         "institucion": "IES Cristóbal de Monroy e IES Albero",

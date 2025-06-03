@@ -1,5 +1,10 @@
 {
-  "Frontend": ["React", "Redux", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
+  "Frontend": ["React", "Redux", "Tailwind CSS", "HTML", "CSS", "Angular"],
   "Backend": ["Node.js", "Express", "REST API", "GraphQL"],
-  "DevOps": ["GitHub Actions", "Docker", "Kubernetes", "AWS", "CI/CD"]
+  "DevOps": ["GitHub Actions", "Docker", "Kubernetes", "AWS", "CI/CD", "Vercel", "Azure"],
+  "Bases de Datos": ["MySQL", "PostgreSQL", "MongoDB", "Oracle"],
+  "Lenguajes de Programación": ["JavaScript", "TypeScript", "Python", "C#", "Java", "PHP"],
+  "Testing": ["Jest", "JMeter"],
+  "Metodologías Ágiles": ["Scrum", "Kanban"],
+  "Herramientas de Desarrollo": ["Visual Studio Code", "Visual Studio", "Git", "Postman", "Swagger"]
 }
