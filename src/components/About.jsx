@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
       <img
-        src="src/assets/foto.jpg"
+        src="foto.jpg"
         alt="Foto de Manuel Jesús"
         className="w-32 h-32 rounded-full mb-4 object-cover"
       />
