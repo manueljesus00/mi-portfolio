@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ThemeToggle from "./TheneToggle";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,6 +16,7 @@ function Navbar() {
     <nav className="fixed w-full bg-white shadow-md z-10">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="text-xl font-bold">Manuel Jesús Flores</div>
+        <ThemeToggle />
         {/* Botón hamburguesa para móvil */}
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)}>

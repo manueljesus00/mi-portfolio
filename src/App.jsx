@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <div className="container mx-auto px-4 py-8 pt-24">
+    <div className="container mx-auto px-4 py-8 pt-24" dark:bg-gray-900 dark:text-white>
       <section id='about' className="mb-8 pt-20 -mt-20">
         <About />
       </section>
