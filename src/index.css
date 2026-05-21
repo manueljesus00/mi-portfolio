@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --neon: 0 212 255;
+  --dark-bg: 8 12 16;
+  --dark-card: 13 17 23;
+  --dark-border: 26 35 50;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: rgb(var(--dark-bg));
+    color: #e2e8f0;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(var(--dark-bg));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--neon) / 0.3);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--neon) / 0.6);
+  }
+}
+
+@layer utilities {
+  .glow-text {
+    text-shadow: 0 0 12px rgb(var(--neon) / 0.8), 0 0 30px rgb(var(--neon) / 0.4);
+  }
+  .glow-text-sm {
+    text-shadow: 0 0 8px rgb(var(--neon) / 0.7);
+  }
+  .section-line {
+    height: 1px;
+    background: linear-gradient(90deg, rgb(var(--neon) / 0.5), transparent);
+  }
+  .hero-bg {
+    background:
+      radial-gradient(ellipse at 15% 55%, rgb(var(--neon) / 0.07) 0%, transparent 55%),
+      rgb(var(--dark-bg));
+  }
+  .grid-pattern {
+    background-image:
+      linear-gradient(rgb(var(--neon) / 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(var(--neon) / 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+}

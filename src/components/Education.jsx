@@ -1,69 +1,40 @@
-// src/components/Education.jsx
-
 import React from "react";
-import education from "../data/education.json"; // Asegúrate de que la ruta sea correcta
+import education from "../data/education.json";
 
 function Education() {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6">
-      {/* Título de la sección */}
-      <h2 className="text-2xl font-semibold mb-6">Estudios</h2>
+    <section id="education" className="py-24 bg-dark">
+      <div className="max-w-5xl mx-auto px-6">
+        <div className="mb-12">
+          <h2 className="text-2xl font-bold text-white mb-3">
+            <span className="text-neon glow-text-sm">#</span> Educación
+          </h2>
+          <div className="section-line" />
+        </div>
 
-      {/* Recorremos cada elemento de tu JSON */}
-      <div className="space-y-10">
-        {education.map((edu, idx) => (
-          <div key={idx} className="space-y-4">
-            {/* 1. Grado, institución y periodo */}
-            <div>
-              <h3 className="text-xl font-medium">{edu.grado}</h3>
-                {edu.trabajo && (
-                    <p className="text-sm text-gray-600 italic">
-                    TFM/TFG/TFE: {edu.trabajo}
-                    </p>
+        <div className="grid md:grid-cols-2 gap-6">
+          {education.map((edu, idx) => (
+            <div
+              key={idx}
+              className="border border-dark-border rounded-lg p-6 bg-dark-card hover:border-neon/30 hover:shadow-neon transition-all duration-300"
+            >
+              <div className="flex items-start justify-between gap-3 mb-2">
+                <h3 className="text-white font-semibold text-base leading-snug">
+                  {edu.grado}
+                </h3>
+                {edu.nota && (
+                  <span className="flex-shrink-0 px-2 py-0.5 text-xs text-neon border border-neon/30 rounded-full bg-neon/5">
+                    {edu.nota}
+                  </span>
                 )}
-              <span className="text-sm text-gray-500">
-                {edu.institucion} &mdash; {edu.periodo}
-              </span>
-            </div>
-
-            {/* 2. Si existe el array `calificaciones`, lo mostramos en una tabla */}
-            {Array.isArray(edu.calificaciones) && edu.calificaciones.length > 0 && (
-              <div className="pl-4">
-                <h4 className="text-lg font-semibold mb-2">
-                  Calificaciones destacadas
-                </h4>
-
-                <div className="overflow-x-auto">
-                  <table className="min-w-full table-auto border-collapse text-left">
-                    <thead>
-                      <tr>
-                        <th className="px-2 py-2 border-b">Asignatura</th>
-                        <th className="px-2 py-2 border-b">Calificación</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {edu.calificaciones.map((curso, i) => (
-                        <tr
-                          key={i}
-                          className="bg-blue-50 font-semibold"
-                        >
-                          <td className="px-2 py-2 border-b">
-                            {curso.asignatura}
-                          </td>
-                          <td className="px-2 py-2 border-b">
-                            {curso.calificacion}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
               </div>
-            )}
-          </div>
-        ))}
+              <p className="text-slate-500 text-xs mb-2">{edu.institucion}</p>
+              <p className="text-neon/70 font-mono text-xs">{edu.periodo}</p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -1,161 +1,23 @@
 [
   {
+    "grado": "M\u00e1ster en Ingenier\u00eda Inform\u00e1tica",
     "institucion": "Universidad Pablo de Olavide",
-    "grado": "Máster en Ingeniería Informática",
-    "periodo": "Nov 2024 - Actualidad",
-    "calificaciones": [
-      {
-        "asignatura": "Gestión TI",
-        "calificacion": "8.0 (NT)"
-      },
-      {
-        "asignatura": "Dirección TI",
-        "calificacion": "7.4 (SB)"
-      }
-    ]
+    "periodo": "Nov 2024 \u2013 Actualidad",
+    "nota": "Finalizando TFM"
   },
-    {
-        "institucion": "Universidad Pablo de Olavide",
-        "grado": "Grado en Ingeniería Informática en Sistemas de Información",
-        "periodo": "Sep 2020 - Feb 2025",
-        "trabajo": "Sistema de Información para la Gestión de Eventos Deportivos Colaborativos",
-        "calificaciones": [
-            {
-                "asignatura": "Auditoría de Sistemas de Información",
-                "calificacion": "8.2 (NT)"
-            },
-            {
-                "asignatura": "Inteligencia de Negocio",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Calidad",
-                "calificacion": "8.7 (NT)"
-            },
-            {
-                "asignatura": "Planificación de Proyectos",
-                "calificacion": "7.3 (NT)"
-            },
-            {
-                "asignatura": "Programación Avanzada",
-                "calificacion": "7.2 (NT)"
-            },
-            {
-                "asignatura": "Ingeniería de Proyectos",
-                "calificacion": "8.5 (NT)"
-            },
-            {
-                "asignatura": "Gestión de Procesos de Negocio",
-                "calificacion": "7.9 (NT)"
-            },
-            {
-                "asignatura": "Fundamentos de Sistemas de Información",
-                "calificacion": "7.3 (NT)"
-            },
-            {
-                "asignatura": "Organización y Gestión de Empresas",
-                "calificacion": "8.1 (NT)"
-            }
-        ]
+  {
+    "grado": "Grado en Ingenier\u00eda Inform\u00e1tica en Sistemas de Informaci\u00f3n",
+    "institucion": "Universidad Pablo de Olavide",
+    "periodo": "Sep 2020 \u2013 Feb 2025"
     },
     {
-        "institucion": "IES Ciudad Jardín",
-        "grado": "Técnico Superior en Administración de Sistemas Informáticos en Red",
-        "trabajo": "Elaboración de un SOC doméstico",
-        "periodo": "Sep 2018 - Jun 2020",
-        "calificaciones": [
-            {
-                "asignatura": "Fundamentos de Hardware",
-                "calificacion": "8.0 (NT)"
-            },
-            {
-                "asignatura": "Gestión de Bases de Datos",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Implantación de Sistemas Operativos",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Lenguaje de Marcas y Sistemas de Gestión de Información",
-                "calificacion": "10.0 (MH)"
-            },
-            {
-                "asignatura": "Planificación y Administración de Redes",
-                "calificacion": "8.0 (NT)"
-            },
-            {
-                "asignatura": "Administración de Sistemas Gestores de Bases de Datos",
-                "calificacion": "7.0 (NT)"
-            },
-            {
-                "asignatura": "Administración de Sistemas Operativos",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Implantación de Aplicaciones Web",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Seguridad y Alta Disponibilidad",
-                "calificacion": "7.0 (NT)"
-            },
-            {
-                "asignatura": "Servicios de Red e Internet",
-                "calificacion": "8.0 (NT)"
-            },
-            {
-                "asignatura": "Proyecto Fin de Estudios",
-                "calificacion": "10.0 (MH)"
-            }
-        ]
+    "grado": "T\u00e9cnico Superior en Administraci\u00f3n de Sistemas Inform\u00e1ticos en Red",
+    "institucion": "Instituto de Educaci\u00f3n Secundaria Ciudad Jard\u00edn - Sevilla",
+    "periodo": "Sep 2018 \u2013 Jun 2020"
     },
     {
-        "institucion": "IES Cristóbal de Monroy",
-        "grado": "Técnico en Sistemas Microinformáticos y Redes",
-        "periodo": "Sep 2016 - Jun 2018",
-        "calificaciones": [
-            {
-                "asignatura": "Montaje y Mantenimiento de Equipos",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Sistemas Operativos Monopuesto",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Aplicaciones Web",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Sistemas Operativos en Red",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Aplicaciones Ofimáticas",
-                "calificacion": "8.0 (NT)"
-            },
-            {
-                "asignatura": "Seguridad Informática",
-                "calificacion": "8.0 (NT)"
-            },
-            {
-                "asignatura": "Servicios en Red",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Empresa e Iniciativa Emprendedora",
-                "calificacion": "9.0 (SB)"
-            },
-            {
-                "asignatura": "Formación y Orientación Laboral",
-                "calificacion": "8.0 (NT)"
-            }
-        ]
-    },
-    {
-        "institucion": "IES Cristóbal de Monroy e IES Albero",
-        "grado": "Educación Secundaria Obligatoria (ESO)",
-        "periodo": "Sep 2012 - Jun 2016"
+    "grado": "T\u00e9cnico en Sistemas Microinform\u00e1ticos y Redes",
+    "institucion": "Instituto de Educaci\u00f3n Secundaria Crist\u00f3bal de Monroy - Alcal\u00e1 de Guada\u00edra",
+    "periodo": "Sep 2016 \u2013 Jun 2018"
     }
-]	
+]
